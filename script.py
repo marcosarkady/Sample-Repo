@@ -1,7 +1,12 @@
 import sys
 import pyperclip
 
-# str+shift+P
+# git
+# source d:/DesktopD/myscript/start/venv/Scripts/activate
+# powershell
+# d:/DesktopD/myscript/start/venv/Scripts/activate.ps1
+
+# strg+shift+P
 
 # python -m venv ProjektName
 # d:/DesktopD/myscript/start/venv/Scripts/Activate.ps1
@@ -22,5 +27,7 @@ pyperclip.copy("Hey")
 def greet(who_to_greet):
     greeting = "Hello, {}".format(who_to_greet)
     return greeting
+
+
 print(greet("World"))
 print(greet("Marco"))
